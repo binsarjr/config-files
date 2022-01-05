@@ -13,7 +13,7 @@ filetype plugin indent on       " allow auto-indent depending on filetype
 syntax on                       " syntax highlighting
 :set mouse=a                    " enable mouse click
 :set wildmode=longest,list      " get bash-like tab completions
-:set cc=80                      " set an 80 column border for good coding style
+":set cc=80                      " set an 80 column border for good coding style
 :set clipboard=unnamedplus      " using system clipboard
 ":set cursorline                 " highlight current cursorline
 ":set ttyfast                    " enable speed up scrolling in vim
