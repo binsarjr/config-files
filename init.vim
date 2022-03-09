@@ -21,6 +21,12 @@ syntax on                       " syntax highlighting
 :set noswapfile                 " disable creating swapfile
 ":set backupdir=~/.cache/vim     " Directory to store backup files.
 
+" Auto close
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
 
 
 call plug#begin()
